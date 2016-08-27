@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--&lt;!&ndash;填充的颜色&ndash;&gt;-->
+    <!--<solid android:color="@color/colorRed" />-->
+
+    <!--&lt;!&ndash;线条厚度&ndash;&gt;-->
+    <!--<size android:height="3dp"/>-->
+
+    <gradient
+    android:centerColor="@color/colorGreen"
+    android:endColor="@color/colorBlue"
+    android:startColor="@color/colorRed"
+    android:type="linear"/>
+
+    <size android:height="2dp"/>
+
+</shape>
